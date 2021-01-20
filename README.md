@@ -14,5 +14,5 @@ Para iniciar basta rodar os comandos:
 
 <p>para passar outros valores, basta trocar o segundo parâmetro: </p>
 
-![image](https://user-images.githubusercontent.com/62247144/105182153-7a539d00-5b0b-11eb-9277-58b093fe8cc7.png)
+![image](https://user-images.githubusercontent.com/62247144/105216399-3e333300-5b31-11eb-8a27-8815285f0df6.png)
 
