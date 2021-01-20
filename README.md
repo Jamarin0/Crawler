@@ -12,8 +12,10 @@ Para iniciar basta rodar os comandos:
   
   ![image](https://user-images.githubusercontent.com/62247144/105216473-5efb8880-5b31-11eb-905d-ed22832b02c0.png)
 
-<p> resultado postman </p>
+<p> resultado do postman, para passar outro parâmetro basta indicar no final da rota </p>
   
+  ![image](https://user-images.githubusercontent.com/62247144/105216697-aa159b80-5b31-11eb-8428-878633ee4bcc.png)
+
   
 
 
