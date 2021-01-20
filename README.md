@@ -3,6 +3,6 @@ Crawler js
 
 Para iniciar basta rodar os comandos:
 
- yarn init -y 
- yarn add puppeteer
- node index.js
+ <p>yarn init -y </p>
+ <p> yarn add puppeteer </p>
+  <p>node index.js </p>
