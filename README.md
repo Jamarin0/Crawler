@@ -5,7 +5,7 @@ Para iniciar basta rodar os comandos:
 
  <p>yarn</p>
  
-  <p>node index.js </p>
+  <p>yarn dev </p>
   
   <p>O resultado terminal:</p>
   
