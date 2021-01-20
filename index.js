@@ -1,23 +1,22 @@
-const puppeteer = require('puppeteer');
+const searchGoogle = require("./searchGoogle");
 
-const searchGoogle = async (searchQuery) => {
+const express = require('express');
+const { linkSync } = require('fs');
+const app = express()
 
-    const browser = await puppeteer.launch();
+app.get('/', async function  (req, res){
+  const test = await searchGoogle()
+  console.log(test)
+   return res.json(test)
+})
 
-    const page = await browser.newPage();
-    await page.goto('https://google.com');
+app.post('/:pesquisa', async  (req, res) => {
+    console.log(req.params)
 
-   
-    await page.type('input[name=q]', 'roupa', { delay: 100 })
-    await page.click('input[type="submit"]')
-    await page.waitForSelector('h3 span')
-    const links = await page.$$eval('h3 span', anchors => { return anchors.map(a => { return a.textContent }) })
+    const {pesquisa} = req.params
+    const test = await searchGoogle(pesquisa)
+    console.log(test)
+     return res.json(test)
+ })
 
-    console.log(links, 'Resultado')
-
-    await browser.close();
-};
-
-module.exports = searchGoogle;
-
-searchGoogle();
+app.listen(3000)
