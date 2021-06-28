@@ -1,6 +1,0 @@
-functionsoma (numero 1, numero 2){
-    return numero 1 + nemero 2;
-}
- console.log (soma(2 , 2))
- console.log (soma(3.14 , 20))
- console.log (soma(-2021 , 1970))
